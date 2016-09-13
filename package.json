@@ -1,0 +1,23 @@
+{
+  "name": "if-timeout",
+  "version": "1.0.0",
+  "description": "Timeout middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianOsuna/if-timeout.git"
+  },
+  "keywords": [
+    "timeout",
+    "middleware"
+  ],
+  "author": "SebastianOsuna <pepinyeah0@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SebastianOsuna/if-timeout/issues"
+  },
+  "homepage": "https://github.com/SebastianOsuna/if-timeout#readme"
+}
