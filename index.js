@@ -16,9 +16,7 @@ module.exports = function (callback, _options) {
   return function (req, res, next) {
     if (!ignore(req.path())) {
       var timeout = setTimeout(callback.bind(null, req, res, next), options.timeout);
-      req.on('response', function () {
-        clearTimeout(timeout);
-      });
+      res.on('finish', function () { clearTimeout(timeout); });
     }
     next();
   };

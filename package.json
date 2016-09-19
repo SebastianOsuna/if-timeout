@@ -1,10 +1,10 @@
 {
   "name": "if-timeout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Timeout middleware",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine spec/iftimeout_spec.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/SebastianOsuna/if-timeout/issues"
   },
-  "homepage": "https://github.com/SebastianOsuna/if-timeout#readme"
+  "homepage": "https://github.com/SebastianOsuna/if-timeout#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  }
 }
